@@ -130,8 +130,8 @@ menu_settings:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
-scheme: Pisces
+scheme: Mist
+#scheme: Pisces
 #scheme: Gemini
 
 
@@ -205,8 +205,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right (only for Pisces | Gemini).
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value (only for Muse | Mist):
   #  - post    expand on posts automatically. Default.
@@ -934,3 +934,16 @@ images: images
 
 # Theme version
 version: 6.0.4
+
+#live2d
+live2d:
+  enable: true
+  scriptFrom: local
+  model:
+    use: live2d-widget-model-koharu
+  display:
+    position: right
+    width: 30
+    height: 60
+  mobile:
+    show: true
