@@ -46,14 +46,14 @@ cache:
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
+  medium: /images/favicon-16x16-next.png
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: " 算法练习, 考研, 其他"
+keywords: " hexo "
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -112,18 +112,17 @@ index_with_subtitle: false
 menu:
   home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
+  tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-
+  learning: /learning/  || book
 # Enable/Disable menu icons / item badges.
 menu_settings:
   icons: true
   badges: false
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -322,7 +321,6 @@ custom_logo:
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: normal
-
 # Enable "cheers" for archive page.
 cheers_enabled: true
 
@@ -935,15 +933,16 @@ images: images
 # Theme version
 version: 6.0.4
 
-#live2d
-live2d:
+# Online contact
+daovoice: true
+daovoice_app_id: "6eac4fed"
+
+#gittalk
+gitalk:
   enable: true
-  scriptFrom: local
-  model:
-    use: live2d-widget-model-koharu
-  display:
-    position: right
-    width: 30
-    height: 60
-  mobile:
-    show: true
+  githubID: KiyomiHan  # 例：asdfv1929   
+  repo: mygtalk.github.io # 例：asdfv1929.github.io
+  ClientID: 3b46811854b34f8936f7
+  ClientSecret: cd6c6c04d8c3d7d9464597c29c7c88672bc63e01
+  adminUser: KiyoumiHan  #指定可初始化评论账户
+  distractionFreeMode: true
