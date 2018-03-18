@@ -118,7 +118,8 @@ menu:
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-  learning: /learning/  || book
+  learning: /categories/learning/  || book
+  LeetCode: /categories/LeetCode/ || code
 # Enable/Disable menu icons / item badges.
 menu_settings:
   icons: true
